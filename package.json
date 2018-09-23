@@ -1,0 +1,28 @@
+{
+  "name": "MyNewProject",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "enzyme": "^3.4.4",
+    "react": "16.4.1",
+    "react-native": "0.56.0",
+    "react-native-custom-segmented-control": "^3.0.8",
+    "react-native-keyboard-aware-scroll-view": "^0.7.2",
+    "react-native-segmented-control-tab": "^3.3.1",
+    "react-native-simple-login": "^1.1.0",
+    "react-navigation": "^2.12.1"
+  },
+  "devDependencies": {
+    "babel-jest": "23.2.0",
+    "babel-preset-react-native": "5.0.2",
+    "jest": "23.3.0",
+    "react-test-renderer": "16.4.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
